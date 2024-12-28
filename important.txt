@@ -1,0 +1,27 @@
+IN vs code terminal originally : npx --version or npm -v
+the npx an npm commands are not recognized and shows error
+although properly installed. But shows in windows powershell properly. 
+this is due to execution policy
+
+--> Solution in VS code terminal :
+ 
+Option 1: Change Execution Policy in VS Code
+Open the integrated terminal in VS Code.
+CurrentUser ensures the change applies only to your user account.
+RemoteSigned allows scripts you create to run and blocks unsigned scripts from the internet.
+
+*Run the following command to set the execution policy for the current user:-
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+TYPE : Y
+
+*should work :-
+npx --version
+
+*Revert the Policy (Optional)
+If you want to revert the policy to its original state after running your commands:
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Restricted
+
+
+
+** IMPORTANT INSTALLING COMPONENTS/ui/.jsx file like : 
+npx shadcn@latest add input scroll-area select sheet tabs textarea tooltip
