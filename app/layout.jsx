@@ -5,6 +5,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import PageTransition from "@/components/ui/PageTransition";
 import StairsTransition from "@/components/ui/StairsTransition";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,8 +34,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} ${jetbrainsMono.variable} antialiased`}>
         <Header />
-        <StairsTransition/>
+        {/*<StairsTransition/>}
         <PageTransition>{children}</PageTransition>
+        {*/}
+        {children}
+        <Footer />
       </body>
     </html>
   );
