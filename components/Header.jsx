@@ -21,7 +21,7 @@ const Header = () => {
         
 
         {/*Desktop Nav & hire me button*/}
-        <div className="hidden xl:flex items-center ml-auto gap-7">
+        <div className="hidden xl:flex items-center ml-auto gap-9">
             <Nav />
             {/*<Link href ="/contact"> 
                 <Button> Hire Me</Button>

@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import PageTransition from "@/components/ui/PageTransition";
 import StairsTransition from "@/components/ui/StairsTransition";
 import Footer from "@/components/Footer";
+import SideProfile from "@/components/SideProfile";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,8 +38,25 @@ export default function RootLayout({ children }) {
         {/*<StairsTransition/>}
         <PageTransition>{children}</PageTransition>
         {*/}
-        {children}
-        <Footer />
+
+        <section className=" h-full px-1 py-3 xl:py-1overflow-hidden">
+          <div className="mx-auto h-full container overflow-y-auto">
+            <div className="flex flex-col xl:flex-row items-start xl:items-top gap-5">
+              {/* Left Side: SideProfile */}
+                <aside className="w-full lg:w-[20%] bg-primary overflow-auto">
+                  <SideProfile />
+                </aside>
+            {/* Right Side: Page Content */}
+                <section className="w-full lg:w-[80%] bg-primary overflow-auto">
+                  {children}
+                  <Footer />
+                </section>
+            </div>
+          </div>
+        </section>
+
+       
+
       </body>
     </html>
   );
