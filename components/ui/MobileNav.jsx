@@ -25,7 +25,7 @@ const links = [
         path: '/publications'
     },
     {
-        name: 'Awards-&-Activities',
+        name: 'Awards',
         path: '/awards_activities'
     },
     {
