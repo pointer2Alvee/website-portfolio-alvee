@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
                   <SideProfile />
                 </aside>
             {/* Right Side: Page Content */}
-                <section className="w-full lg:w-[80%] bg-primary overflow-auto">
+                <section className="w-full lg:w-[80%] bg-primary overflow-auto main-content">
                   {children}
                   <Footer />
                 </section>

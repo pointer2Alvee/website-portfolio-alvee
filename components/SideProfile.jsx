@@ -48,31 +48,30 @@ const SideProfile = () => {
                 </CollapsibleTrigger>
                 <CollapsibleContent className="mt-2 space-y-3">
                   <div className="flex flex-col items-left gap-1">
-                    <a href="mailto:pointer2alvee@gmail.com" className="flex items-center gap-2 text-gray-500 hover:text-green-200">
-                      <FiMail size={18} /> Email
-                    </a>
-                    
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-blue-600">
-                      <FiLinkedin size={18} /> LinkedIn
-                    </a>
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-white">
-                      <FiGithub size={18} /> GitHub
-                    </a>
-                    <a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-green-600">
-                      <SiGooglescholar size={18} /> Google Scholar
-                    </a>
-                    <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-orange-500">
-                      <SiLeetcode size={18} /> LeetCode
-                    </a>
-                    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-red-600">
-                      <FiYoutube size={18} /> YouTube
-                    </a>
-                    <a href="https://www.kaggle.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-blue-400">
-                        <FaKaggle size={18} /> Kaggle
-                    </a>
-                    <a href="https://huggingface.co" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-yellow-300">
-                        <SiHuggingface size={18} /> Hugging Face
-                    </a>
+                  <a href="mailto:your_email@example.com" className="flex items-center gap-2 text-gray-500 hover:text-green-200">
+                    <FiMail size={18} /> Email
+                </a>
+                <a href="https://linkedin.com/in/sadman-alvee-1bb464249" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-blue-600">
+                    <FiLinkedin size={18} /> LinkedIn
+                </a>
+                <a href="https://github.com/Pointer2Alvee" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-white">
+                    <FiGithub size={18} /> GitHub
+                </a>
+                {/*}<a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-green-600">
+                    <SiGooglescholar size={18} /> Google Scholar
+                </a>{*/}
+                <a href="https://www.leetcode.com/iamalvee" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-orange-500">
+                    <SiLeetcode size={18} /> LeetCode
+                </a>
+                <a href="https://www.youtube.com/@pointer2Alvee" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-red-600">
+                    <FiYoutube size={18} /> YouTube
+                </a>
+                <a href="https://kaggle.com/pointer2alvee" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-blue-400">
+                    <FaKaggle size={18} /> Kaggle
+                </a>
+                <a href="https://huggingface.co/iamAlvee" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-yellow-300">
+                    <SiHuggingface size={18} /> Hugging Face
+                </a>
 
                   </div>
                 </CollapsibleContent>
@@ -84,25 +83,25 @@ const SideProfile = () => {
               <a href="mailto:your_email@example.com" className="flex items-center gap-2 text-gray-500 hover:text-green-200">
                 <FiMail size={18} /> Email
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-blue-600">
+              <a href="https://linkedin.com/in/sadman-alvee-1bb464249" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-blue-600">
                 <FiLinkedin size={18} /> LinkedIn
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-white">
+              <a href="https://github.com/Pointer2Alvee" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-white">
                 <FiGithub size={18} /> GitHub
               </a>
-              <a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-green-600">
+              {/*}<a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-green-600">
                 <SiGooglescholar size={18} /> Google Scholar
-              </a>
-              <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-orange-500">
+              </a>{*/}
+              <a href="https://www.leetcode.com/iamalvee" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-orange-500">
                 <SiLeetcode size={18} /> LeetCode
               </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-red-600">
+              <a href="https://www.youtube.com/@pointer2Alvee" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-red-600">
                 <FiYoutube size={18} /> YouTube
               </a>
-              <a href="https://www.kaggle.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-blue-400">
+              <a href="https://kaggle.com/pointer2alvee" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-blue-400">
                 <FaKaggle size={18} /> Kaggle
               </a>
-              <a href="https://huggingface.co" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-yellow-300">
+              <a href="https://huggingface.co/iamAlvee" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-yellow-300">
                 <SiHuggingface size={18} /> Hugging Face
               </a>
             </div>

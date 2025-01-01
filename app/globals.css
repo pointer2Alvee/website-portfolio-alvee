@@ -73,3 +73,7 @@ body {
     
   }
 }
+
+.main-content {
+  padding-bottom: 10%; /* Same as footer height */
+}
