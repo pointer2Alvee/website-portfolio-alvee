@@ -19,6 +19,7 @@ export default {
 	},
 	fontFamily:{
 		primary: "var(--font-jetbrainsMono)",
+		secondary: "var(--font-raleway)", 
 	},
   	extend: {
   		colors: {

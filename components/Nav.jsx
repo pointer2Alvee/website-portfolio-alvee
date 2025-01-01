@@ -25,11 +25,11 @@ const links = [
         path : "/education",
 
     },
-    {
+    /*{ 
         name : "Publications",
         path : "/publications",
-
-    },
+    
+    }*/,
     {
         name : "Awards",
         path : "/awards_activities",

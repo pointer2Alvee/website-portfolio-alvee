@@ -11,10 +11,10 @@ const Header = () => {
     <div className="container mx-auto flex justify-between items-center">
 
         {/*logo/ Name/ Home */}
-        <div className="flex-shrink-0">
-            <Link href="/">
-                <h1 className="text-2xl font-semibold">Sadman
-                    <span className="text-accent ml-2">Alvee</span>
+        <div className="flex-shrink-0 ">
+            <Link className="" href="/">
+                <h1 className="text-2xl font-semibold ">Sadman
+                    <span className="text-accent ml-2 ">Alvee</span>
                 </h1>
             </Link>
         </div>

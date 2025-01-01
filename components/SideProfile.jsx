@@ -19,7 +19,7 @@ const SideProfile = () => {
         <div className="flex flex-col xl:flex-row items-start xl:items-top gap-5"> {*/}
 
           {/* ------------------------------ Profile Section ------------------------------*/}
-          <div className="flex flex-col items-center md:items-start gap-3 w-full xl:w-full">
+          <div className="flex flex-col items-center md:items-start gap-3 w-full xl:w-full ">
             
             {/* Profile Picture */}
             <div className="w-40 h-40 mx-auto xl:mx-0 rounded-full overflow-hidden bg-gray-200 flex items-center justify-center">
@@ -33,10 +33,10 @@ const SideProfile = () => {
             {/* Name, Title, Location */}
             <div className="text-center xl:text-center">
               <h1 className="text-xl font-semibold">Sadman Alvee</h1>
-              <p className="text-accent text-md mb-1">ML, ES, Robotics</p>
+              <p className="text-accent text-md mb-1">ML,ES,Robotics</p>
               <div className="flex items-center justify-center xl:justify-start gap-2 text-gray-200 mt-0 text-sm">
                 <FiMapPin size={18} />
-                <span>Dhaka, Bangladesh</span>
+                <span>Dhaka,Bangladesh</span>
               </div>
             </div>
 
