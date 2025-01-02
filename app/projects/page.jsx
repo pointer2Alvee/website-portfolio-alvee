@@ -5,25 +5,73 @@ import { FiGithub, FiYoutube } from "react-icons/fi";
 const hardwareProjects = [
   {
     id: 1,
-    name: "IoT Smart Attendance System",
+    name: "IoT Fingerprint Attendance",
     youtubeLink: "https://www.youtube.com/watch?v=example1",
-    githubLink: "https://github.com/username/project1",
+    githubLink: "https://github.com/pointer2Alvee/iot-smart-fingerprint-attendance.git",
     description: "An IoT-based system that automates attendance",
     detailPage: "/projects/projectDetails",
   },
   {
     id: 2,
-    name: "Gesture-Controlled Car",
+    name: "Automated Parking",
     youtubeLink: "https://www.youtube.com/watch?v=example2",
-    githubLink: "https://github.com/username/project2",
+    githubLink: "https://github.com/pointer2Alvee/embd-sys-automated-parking.git",
     description: "A car controlled by hand gestures using Arduino",
     detailPage: "/projects/gesture-car",
   },
   {
     id: 3,
-    name: "Home Automation System",
+    name: "Security Surveillance Robot",
     youtubeLink: "https://www.youtube.com/watch?v=example3",
-    githubLink: "https://github.com/username/project3",
+    githubLink: "https://github.com/pointer2Alvee/embd-sys-security-surveillance-service-bot.git",
+    description: "A smart home system controlled via mobile app using ESP32.",
+    detailPage: "/projects/home-automation",
+  },
+  {
+    id: 4,
+    name: "IoT Automated Residence",
+    youtubeLink: "https://www.youtube.com/watch?v=example3",
+    githubLink: "https://github.com/pointer2Alvee/iot-automated-residence.git",
+    description: "A smart home system controlled via mobile app using ESP32.",
+    detailPage: "/projects/home-automation",
+  },
+  {
+    id: 5,
+    name: "Distance Measuring System",
+    youtubeLink: "https://www.youtube.com/watch?v=example3",
+    githubLink: "https://github.com/pointer2Alvee/embd-sys-distance-measuring-device.git",
+    description: "A smart home system controlled via mobile app using ESP32.",
+    detailPage: "/projects/home-automation",
+  },
+  {
+    id: 6,
+    name: "Solar Bat Charge Controller",
+    youtubeLink: "https://www.youtube.com/watch?v=example3",
+    githubLink: "https://github.com/pointer2Alvee/embd-sys-solar-battery-charge-controller.git",
+    description: "A smart home system controlled via mobile app using ESP32.",
+    detailPage: "/projects/home-automation",
+  },
+  {
+    id: 7,
+    name: "RF Gesture Controlled Car",
+    youtubeLink: "https://www.youtube.com/watch?v=example3",
+    githubLink: "https://github.com/pointer2Alvee/embd-sys-rf-gesture-controlled-car.git",
+    description: "A smart home system controlled via mobile app using ESP32.",
+    detailPage: "/projects/home-automation",
+  },
+  {
+    id: 8,
+    name: "Dual-Axis Solar Tracker",
+    youtubeLink: "https://www.youtube.com/watch?v=example3",
+    githubLink: "https://github.com/pointer2Alvee/embd-sys-dual-axis-solar-tracker.git",
+    description: "A smart home system controlled via mobile app using ESP32.",
+    detailPage: "/projects/home-automation",
+  },
+  {
+    id: 9,
+    name: "Ulttrasonic Radar",
+    youtubeLink: "https://www.youtube.com/watch?v=example3",
+    githubLink: "https://github.com/pointer2Alvee/embd-sys-ultrasonic-radar.git",
     description: "A smart home system controlled via mobile app using ESP32.",
     detailPage: "/projects/home-automation",
   },
@@ -31,26 +79,26 @@ const hardwareProjects = [
 
 const softwareProjects = [
   {
-    id: 4,
-    name: "AI Chatbot System",
-    youtubeLink: "https://www.youtube.com/watch?v=example4",
-    githubLink: "https://github.com/username/project4",
+    id: 1,
+    name: "LLM TV-series Analysis",
+    youtubeLink: "",
+    githubLink: "https://github.com/pointer2Alvee/llm-tv-series-analysis.git",
     description: "An AI chatbot powered by NLP and machine learning.",
     detailPage: "/projects/chatbot",
   },
   {
-    id: 5,
-    name: "E-Commerce Platform",
-    youtubeLink: "https://www.youtube.com/watch?v=example5",
-    githubLink: "https://github.com/username/project5",
+    id: 2,
+    name: "Virtual Reality",
+    youtubeLink: "",
+    githubLink: "https://github.com/pointer2Alvee/website-reality-virtual.git",
     description: "A scalable e-commerce platform built with React and Node.js.",
     detailPage: "/projects/ecommerce",
   },
   {
-    id: 6,
+    id: 3,
     name: "Portfolio Website",
-    youtubeLink: "https://www.youtube.com/watch?v=example6",
-    githubLink: "https://github.com/username/project6",
+    youtubeLink: "",
+    githubLink: "",
     description: "A personal portfolio website showcasing projects and skills.",
     detailPage: "/projects/portfolio",
   },
@@ -115,6 +163,8 @@ const Projects = () => {
                   <FiGithub size={18} />
                   <span className="text-blue-500 underline hover:text-blue-300 transition-colors duration-200">Github</span>
                 </a>
+                
+                {/* uncomment later when video availabe and uploaded to youtube}
                 <a
                   href={project.youtubeLink}
                   target="_blank"
@@ -124,6 +174,8 @@ const Projects = () => {
                   <FiYoutube size={18} />
                   <span className="text-blue-500 underline hover:text-blue-300 transition-colors duration-200">Demo</span>
                 </a>
+                {*/}
+
               </div>
 
             </div>

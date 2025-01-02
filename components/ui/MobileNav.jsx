@@ -20,10 +20,10 @@ const links = [
         name: 'Education',
         path: '/education'
     },
-    {
+    /*{
         name: 'Publications',
         path: '/publications'
-    },
+    }*/,
     {
         name: 'Awards',
         path: '/awards_activities'
@@ -46,10 +46,10 @@ const MobileNav = () => {
         </SheetTrigger>
         <SheetContent className="flex flex-col">
             {/*logo */}
-            <div className="mt-32 mb-40 text-center text-2xl">
+            <div className="mt-32 mb-25 text-center text-2xl">
                 <Link href="/">
                     <h1 className="text-4xl font-semibold">Sadman
-                        <span className="text-accent ml-2">ALVEE</span>
+                        <span className="text-accent ml-2">Alvee</span>
                     </h1>
                 </Link>
             </div>

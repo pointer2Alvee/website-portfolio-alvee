@@ -146,29 +146,29 @@ const Experiences = () => {
 
           {activeTab === "services" && (
             <div className="p-4 bg-primary text-white rounded-xl">
-              <h3 className="font-semibold text-lg mb-3">Our Services</h3>
+              <h3 className="font-semibold text-lg mb-3">My Services</h3>
               <ul className="list-disc pl-4 text-gray-300">
                 <li>
                   Creating Embedded Systems
                   <ul className="list-circle pl-4 text-blue-500">
                     <li>
                       <a href="/project1" target="_blank">
-                        Previous Work 1
+                        IoT Smart Attendance System
                       </a>
                     </li>
                     <li>
                       <a href="/project2" target="_blank">
-                        Previous Work 2
+                        RF Gesture Controlled Car
                       </a>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  Tutoring
+                Creating AI Systems
                   <ul className="list-circle pl-4 text-blue-500">
                     <li>
                       <a href="/tutoring" target="_blank">
-                        Tutoring Details
+                        LLM TV Series Analysis System
                       </a>
                     </li>
                   </ul>
@@ -181,9 +181,8 @@ const Experiences = () => {
             <div className="p-4 bg-primary text-white rounded-xl">
               <h3 className="font-semibold text-lg mb-3">Activities</h3>
               <ul className="list-disc pl-4 text-gray-300">
-                <li>Participating in various competitions</li>
-                <li>Business Works</li>
-                <li>Environmental Care Certifications</li>
+                <li>Participated in MindSparks, 2022 | AUST, Dhaka, Bangladesh</li>
+
               </ul>
             </div>
           )}

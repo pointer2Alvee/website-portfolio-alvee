@@ -19,7 +19,13 @@ const Page = () => {
           {/* ------------------------------ Text Section ------------------------------ */}
           <div className="xl:w-full">
             <p className="text-white-700 text-justify mb-5">
-              Passionate about developing efficient and scalable solutions in Machine Learning and Embedded Systems. With a keen interest in innovation and a strong commitment to excellence, I aim to leverage technology to solve real-world problems.
+              Greetings! I am an aspiring Machine Learning Engineer with a strong founation in 
+              Embedded systems, IoT and robotics. I am highly passionate about developing efficient and scalable solutions 
+              in Machine Learning and Embedded Systems. I am also a businessman with two startups. 
+              With a keen interest in innovation and business and a strong 
+              commitment to excellence, I aim to leverage technology to solve real-world problems.
+              My full name is `M M SADMAN IBRAHIM`, but call me `Alvee`, and welcome to my portfolio. 
+              Feel free to explore and take a tour.  
             </p>
 
             <h1 className="text-xl font-bold mb-1 text-white">Expertise:</h1>
@@ -31,29 +37,39 @@ const Page = () => {
               <li>- DSA</li>
             </ul>
 
-            <h1 className="text-xl font-bold mb-3 text-white">Technology & Tools:</h1>
-            <div className="flex gap-6 items-center">
-              <div className="flex flex-col items-center">
-                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python" className="h-10 w-10" />
-                <p className="text-white text-sm mt-2">Python</p>
-              </div>
-              <div className="flex flex-col items-center">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" alt="PyTorch" className="h-10 w-10" />
-                <p className="text-white text-sm mt-2">PyTorch</p>
-              </div>
-              <div className="flex flex-col items-center">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" alt="Arduino" className="h-10 w-10" />
-                <p className="text-white text-sm mt-2">Arduino</p>
-              </div>
-              <div className="flex flex-col items-center">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow" className="h-10 w-10" />
-                <p className="text-white text-sm mt-2">TensorFlow</p>
-              </div>
-              <div className="flex flex-col items-center">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="Embedded C" className="h-10 w-10" />
-                <p className="text-white text-sm mt-2">Embedded C</p>
-              </div>
+            <h1 className="text-xl font-bold mb-3 text-white">Tools-Technology:</h1>
+            
+            <div className=" text-md p-1 border rounded-lg bg-primary text-white shadow-xl">
+              
+            <ul className=" list-disc pl-2 text-gray-300">
+
+              <li className="mb-1 flex items-center gap-1">
+                <span className="font-secondary font-bold">ML Tech-Stack:-</span>
+                <p className="font-secondary">Python, PyTorch, TensorFlow, NumPy, Matplotlib, Pandas, Scikit-learn, OpenCV </p>
+              </li>
+
+              <li className=" mb-1 flex items-center gap-1">
+                <span className="font-secondary font-bold">ES Tech-Stack:-</span>
+                <p className="font-secondary">C/C++, Arduino Boards, ESP32, Sensor-Modules, Segger, RaspberryPi</p>
+              </li>
+           
+
+            <li className=" mb-1 flex items-center gap-1">
+                <span className="font-secondary font-bold">Dev-Tools:-</span>
+                <p className="font-secondary">VS Code, Arduino IDE, CodeBlocks, Linux, Google Colab, Git, Fritzing, Tinkercad</p>
+              </li>
+          
+
+            <li className="mb-1 flex items-center gap-1">
+                <span className="font-secondary font-bold">Fimiliar With:-</span>
+                <p className="font-secondary">SQL, Firebase, Java, C#, JS, php, HTML, CSS, three.js, android, oracle, dotnet, next.js, IFTTT </p>
+              </li>
+       
+              </ul>
+
             </div>
+
+
           </div>
         </div>
       </div>
