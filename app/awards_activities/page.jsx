@@ -34,11 +34,17 @@ const Awards_Activities = () => {
   return (
     <section className="px-1 py-1">
       <div className=" container mx-auto">
+         
+         {/*Title*/}
+         <div className="flex items-left gap-0 mb-3">
+          <h1 className="font-semibold">Awards</h1>
+        </div>
+
         <div className="flex flex-col gap-4">
           {awardsData.slice().reverse().map((item) => (
             <div
               key={item.id}
-              className="p-2 border rounded-lg bg-primary text-white shadow-xl"
+              className="p-3 border rounded-lg bg-primary text-white shadow-xl"
             >
  
               {/* Awards (if present) */}

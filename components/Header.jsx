@@ -10,7 +10,7 @@ const Header = () => {
   <header className="px-9 py-3 xl:py-5 text-white">
     <div className="container mx-auto flex justify-between items-center">
 
-        {/*logo/ Name/ Home */}
+        {/*logo / Name/ Home*/}
         <div className="flex-shrink-0 ">
             <Link className="" href="/">
                 <h1 className="text-2xl font-semibold ">Sadman
@@ -27,8 +27,6 @@ const Header = () => {
                 <Button> Hire Me</Button>
             </Link> 
             */}
-            
-            
         </div>
 
 

@@ -75,6 +75,14 @@ const Education = () => {
   return (
     <section className="px-1 py-1">
       <div className=" container mx-auto">
+        
+        {/*Title*/}
+        <div className="flex items-left gap-0 mb-3">
+          <h1 className="font-semibold">Education</h1>
+        </div>
+
+
+
         <div className="flex flex-col gap-4">
           {educationData.map((item) => (
             <div
