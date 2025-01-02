@@ -18,14 +18,13 @@ const Page = () => {
 
           {/* ------------------------------ Text Section ------------------------------ */}
           <div className="xl:w-full">
-            <p className="text-white-700 text-justify mb-5">
-              Greetings! I am an aspiring Machine Learning Engineer with a strong founation in 
-              Embedded systems, IoT and robotics. I am highly passionate about developing efficient and scalable solutions 
-              in Machine Learning and Embedded Systems. I am also a businessman with two startups. 
-              With a keen interest in innovation and business and a strong 
-              commitment to excellence, I aim to leverage technology to solve real-world problems.
-              My full name is `M M SADMAN IBRAHIM`, but call me `Alvee`, and welcome to my portfolio. 
-              Feel free to explore and take a tour.  
+            <p className="text-white-700 text-justify mb-5 text-md font-secondary">
+            Welcome to my portfolio! I am `M M Sadman Ibrahim`, but you can call me `Alvee`. 
+            I am a passionate Machine Learning Engineer with a deep enthusiasm for Embedded Systems, IoT, and Robotics. 
+            My passion lies in developing efficient and scalable solutions, combining the power of Machine Learning with cutting-edge Embedded Systems technologies.
+            Beyond engineering, I am also an entrepreneur, proudly leading two startups: proyogLab and impedancePlus. These ventures reflect my enthusiasm for innovation and my drive to merge technology with business to create impactful solutions.
+            With a deep commitment to excellence and a keen interest in solving real-world problems, I continually strive to leverage technology to make a difference. 
+            Thank you for visiting, Feel free to explore and discover more about my work and aspirations! 
             </p>
 
             <h1 className="text-xl font-bold mb-1 text-white">Expertise:</h1>
