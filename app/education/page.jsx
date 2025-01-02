@@ -105,7 +105,7 @@ const Education = () => {
               </div>
 
               {/* Duration */}
-              <div className="flex items-center gap-1 text-xs text-gray-400 mb-2 ">
+              <div className="flex items-center gap-1 text-xs text-green-400 mb-2 ">
                 <FiClock size={16} />
                 {item.duration}
 

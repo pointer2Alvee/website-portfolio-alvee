@@ -10,10 +10,12 @@ const experiences = [
     position: "Founder | Software Engineer",
     duration: "Mar,2024 - Present",
     location: "Dhaka,Bangladesh",
-    intro: "Launched proyogLab™, an IT-startup focused on developing R&D equipment, AI, software, and electronics.",
+    techStack: " C, Embedded Systems Development, Arduino IDE, Sensor-Modules, Circuit Design, Entrepreneurship",
+    intro: "Founded and currently overseeing my second startup, proyogLab™, an IT venture focused on developing AI systems, R&D tools-equipment, software, and electronics. Currently working on enhancing 'alokShobdo' PLD.",
     logo: "/images/profilePic.png",
     details: [
       "Pioneered “alokShobdo” (PLD and Book), an innovative hardware platform for programming education.",
+      "Authored my debut book, 'alokShobdo', a guide to learning embedded programming and electronics.",
     ],
   },
   {
@@ -23,10 +25,16 @@ const experiences = [
     position: "Research & Development Programmer (Part-Time)",
     duration: "Apr,2023 - Nov,2023",
     location: "Istanbul,Turkiye (Remote)",
-    intro: "Handled diverse tasks in Machine Learning and Embedded Systems Development at a startup based in Türkiye.",
+    techStack: "Python, C, OpenCV, Linux, ESP32, Arduino, Segger, FaceNet, Deep Learning, dlib, CNN, EEPROM",
+    intro: "Had the privilege of working on diverse tasks involving Machine Learning, Deep Learning, Computer Vision, and Embedded Systems Development at a startup based in Istanbul, Türkiye.",
     logo: "/proyogLab.png",
     details: [
-      "Designed and implemented machine learning models for facial recognition.",
+      "Developed and tested face detection and recognition systems using pre-trained ML/DL models for prototype applications.", 
+      "Optimized image preprocessing and algorithms, reducing execution time and enhancing on performance embedded platform .",
+      "Explored and attempted vectorization techniques to further boost efficiency.",
+      "Designed and implemented embedded software and hardware circuits for Arduino-based prototypes.",
+      "Worked with BLE (Bluetooth Low Energy) firmware for Nordic SoCs, enabling seamless communication with mobile apps.",
+      "Successfully facilitated data transfer using ESP32 BLE modules. Gained foundational knowledge of BLE protocols for Nordic SoCs.",
     ],
   },
   {
@@ -36,10 +44,12 @@ const experiences = [
     position: "Founder | Embedded Systems Developer",
     duration: "Jun,2020 - Aug,2023",
     location: "Dhaka,Bangladesh",
+    techStack: "C, Embedded Systems, Arduino, IoT, ESP32, Sensor-Modules, Fritzing, Tinkercad, Entrepreneurship",
     logo: "/proyogLab.png",
-    intro: "Founded and operated impedancePlus, an e-commerce business selling electronic components and offering full embedded systems prototyping services while pursuing a full-time degree.",
+    intro: "Founded and operated my first startup, impedancePlus, an e-commerce business providing electronic components and comprehensive services in embedded-systems/IoT/robotics and software prototyping, all while completing my full-time degree.",
     details: [
-      "Developing and selling IoT-based products for educational purposes.",
+      "Sold a wide range of electronic and robotics components, including Arduino boards, ESP modules, sensors, shields, motors, ICs.",
+      "Developed software solutions and complete embedded system prototypes, including application-level softwares and circuit design, driving a significant increase in revenue.",
     ],
   },
 ];
@@ -102,22 +112,33 @@ const Experiences = () => {
                 </div>
   
                 {/* Duration & Location */}
-                <div className="flex items-center gap-1 text-xs text-gray-400 mb-3 ">
+                <div className="flex items-center gap-1 text-xs text-green-400 mb-3 ">
                   <FiClock size={16} />
                   {item.duration}
                   <FiMapPin size={16} className="ms-3" />
                   {item.location}
                 </div>
-  
+
+                {/* techStack */}  
+                <p className="font-secondary text-sm text-gray-300"> 
+                  <span className="font-secondary font-bold ">Tech-Stack:</span> {item.techStack}
+                  </p>
+
                 {/* Intro */}
-                <p className="font-secondary text-sm text-gray-300">{item.intro}</p>
+                <p className="font-secondary text-sm text-gray-200">{item.intro}</p>
   
                 {/* Details */}
-                <ul className="list-disc pl-4 text-sm text-gray-300">
+                <ul className="list-disc pl-5 text-sm text-gray-300">
                   {item.details.map((detail, index) => (
-                    <li className="font-secondary" key={index}>{detail}</li>
+                    <li 
+                      className="font-secondary" 
+                      key={index}
+                    >
+                      {detail}
+                    </li>
                   ))}
                 </ul>
+
               </div>
               ))}
             </>

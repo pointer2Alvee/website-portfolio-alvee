@@ -69,7 +69,7 @@ const Awards_Activities = () => {
               </div>
 
               {/* Duration */}
-              <div className="flex items-center gap-1 text-xs text-gray-400">
+              <div className="flex items-center gap-1 text-xs text-green-400">
                 <FiClock size={16} />
                 {item.duration}
 
