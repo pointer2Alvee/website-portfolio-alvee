@@ -21,9 +21,10 @@ const SideProfile = () => {
           {/* ------------------------------ Profile Section ------------------------------*/}
           <div className="flex flex-col items-center md:items-start gap-3 w-full xl:w-full ">
             
-            {/* Profile Picture */}
+          <div className="flex flex-col items-center xl:items-start space-y-4">
+            {/* Profile Image */}
             <div className="w-40 h-40 mx-auto xl:mx-0 rounded-full overflow-hidden bg-gray-200 flex items-center justify-center">
-            <Image
+              <Image
                 src={profilePic}
                 alt="Profile Photo"
                 className="w-full h-full object-cover"
@@ -31,14 +32,13 @@ const SideProfile = () => {
             </div>
 
             {/* Name, Title, Location */}
-            <div className="text-center xl:text-center">
-              <h1 className="text-xl font-semibold">Sadman Alvee</h1>
-              <p className="text-accent text-md mb-1">ML,ES,Robotics</p>
-              <div className="flex items-center justify-center xl:justify-start gap-2 text-gray-200 mt-0 text-sm">
-                <FiMapPin size={18} />
-                <span>Dhaka,Bangladesh</span>
-              </div>
+            <div className="text-center xl:text-left">
+              <h1 className="text-md font-semibold">Sadman Alvee</h1>
+              <p className="text-accent text-sm mb-1">Founder,SWE @ proyogLab™</p>
+              <p className="text-accent text-sm">ML/DL, ES, Robotics</p>
             </div>
+          </div>
+
 
             {/* Social Media Links - Collapsible Button */}
             <div className="w-full xl:hidden"> {/* Hidden in large screens */}
@@ -47,10 +47,14 @@ const SideProfile = () => {
                   {isOpen ? "Hide" : "Follow"}
                 </CollapsibleTrigger>
                 <CollapsibleContent className="mt-2 space-y-3">
-                  <div className="flex flex-col items-left gap-1">
+                <div className="flex flex-col items-left gap-1">
+                <a href="https://maps.app.goo.gl/5CfSPm1uGbfeDcMU9" className="flex items-center gap-2 text-white hover:text-gray-400">
+                    <FiMapPin size={18} /> Dhaka,Bangladesh
+                </a>
                   <a href="mailto:your_email@example.com" className="flex items-center gap-2 text-gray-500 hover:text-green-200">
                     <FiMail size={18} /> Email
                 </a>
+                
                 <a href="https://linkedin.com/in/sadman-alvee-1bb464249" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-500 hover:text-blue-600">
                     <FiLinkedin size={18} /> LinkedIn
                 </a>
@@ -80,6 +84,9 @@ const SideProfile = () => {
 
             {/* Social Media Links - Always Visible on Large Screens */}
             <div className="hidden xl:flex flex-col items-start gap-1 mt-2">
+            <a href="https://maps.app.goo.gl/5CfSPm1uGbfeDcMU9" className="flex items-center gap-2 text-white hover:text-gray-400">
+                    <FiMapPin size={18} /> Dhaka,Bangladesh
+                </a>
               <a href="mailto:your_email@example.com" className="flex items-center gap-2 text-gray-500 hover:text-green-200">
                 <FiMail size={18} /> Email
               </a>

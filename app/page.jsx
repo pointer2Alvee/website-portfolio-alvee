@@ -18,55 +18,69 @@ const Page = () => {
 
           {/* ------------------------------ Text Section ------------------------------ */}
           <div className="xl:w-full">
-            <p className="text-white-700 text-justify mb-5 text-md font-secondary">
-            Welcome to my portfolio! I am `M M Sadman Ibrahim`, but you can call me `Alvee`. 
-            I am a passionate Machine Learning Engineer with a deep enthusiasm for Embedded Systems, IoT, and Robotics. 
-            My passion lies in developing efficient and scalable solutions, combining the power of Machine Learning with cutting-edge Embedded Systems technologies.
-            Beyond engineering, I am also an entrepreneur, proudly leading two startups: proyogLab and impedancePlus. These ventures reflect my enthusiasm for innovation and my drive to merge technology with business to create impactful solutions.
-            With a deep commitment to excellence and a keen interest in solving real-world problems, I continually strive to leverage technology to make a difference. 
-            Thank you for visiting, Feel free to explore and discover more about my work and aspirations! 
+            <p className="text-gray-300 text-justify mb-9 text-md font-secondary">
+            {/*Bio */}
+            Welcome to my portfolio! I am a passionate <b className='text-white-100'>'Machine Learning Engineer'</b> with a deep enthusiasm for Embedded Systems, IoT, and Robotics. 
+            My focus lies in developing efficient and scalable solutions by blending the power of Machine Learning with cutting-edge Embedded Systems technologies. 
+            Beyond engineering, I am also an entrepreneur, proudly leading two startups ——<a href='/ventures' className='text-blue-400 underline'>proyogLab</a> and <a href='/ventures' className='text-blue-400 underline'>impedancePlus</a>—— which 
+            reflect my drive to merge innovation and business for impactful solutions. 
+            My full name is <b className='text-accent'>`M M Sadman Ibrahim`</b>, but you can call me <b className='text-yellow-500'>`ALVEE`</b>. With a strong commitment to excellence and a passion for solving real-world challenges, 
+            I strive to leverage technology to make a meaningful difference. Thank you for visiting—feel free to explore and learn more about my work and aspirations!
             </p>
 
-            <h1 className="text-xl font-bold mb-1 text-white">Expertise:</h1>
-            <ul className="text-white mb-7">
-              <li>- Machine Learning</li>
-              <li>- Deep Learning</li>
-              <li>- Embedded Systems Development</li>
-              <li>- Circuit Design</li>
-              <li>- DSA</li>
-            </ul>
-
-            <h1 className="text-xl font-bold mb-3 text-white">Tools-Technology:</h1>
-            
-            <div className=" text-md p-1 border rounded-lg bg-primary text-white shadow-xl">
-              
-            <ul className=" list-disc pl-2 text-gray-300">
-
-              <li className="mb-1 flex items-center gap-1">
-                <span className="font-secondary font-bold">ML Tech-Stack:-</span>
-                <p className="font-secondary">Python, PyTorch, TensorFlow, NumPy, Matplotlib, Pandas, Scikit-learn, OpenCV </p>
-              </li>
-
-              <li className=" mb-1 flex items-center gap-1">
-                <span className="font-secondary font-bold">ES Tech-Stack:-</span>
-                <p className="font-secondary">C/C++, Arduino Boards, ESP32, Sensor-Modules, Segger, RaspberryPi</p>
-              </li>
-           
-
-            <li className=" mb-1 flex items-center gap-1">
-                <span className="font-secondary font-bold">Dev-Tools:-</span>
-                <p className="font-secondary">VS Code, Arduino IDE, CodeBlocks, Linux, Google Colab, Git, Fritzing, Tinkercad</p>
-              </li>
-          
-
-            <li className="mb-1 flex items-center gap-1">
-                <span className="font-secondary font-bold">Fimiliar With:-</span>
-                <p className="font-secondary">SQL, Firebase, Java, C#, JS, php, HTML, CSS, three.js, android, oracle, dotnet, next.js, IFTTT </p>
-              </li>
-       
-              </ul>
-
+            {/*Expertise */}
+            <div className="grid grid-cols-2 gap-4 mb-9">
+            <h1 className="text-2xl font-semibold mb-4 text-accent border-b border-accent pb-2">Expertise</h1>
+              <div className="p-4 bg-gray-800 rounded-lg shadow-md flex items-center justify-center text-accent font-medium">
+                Embedded Systems Development
+              </div>
+              <div className="p-4 bg-gray-800 rounded-lg shadow-md flex items-center justify-center text-accent font-medium">
+                Machine Learning / Deep Learning
+              </div>
+              <div className="p-4 bg-gray-800 rounded-lg shadow-md flex items-center justify-center text-accent font-medium">
+                Circuit Design
+              </div>
+              <div className="p-4 bg-gray-800 rounded-lg shadow-md flex items-center justify-center text-accent font-medium">
+                System Prototyping
+              </div>
+              <div className="p-4 bg-gray-800 rounded-lg shadow-md flex items-center justify-center text-accent font-medium">
+                Hardware-Software Integration
+              </div>
+              <div className="p-4 bg-gray-800 rounded-lg shadow-md flex items-center justify-center text-accent font-medium">
+                DSA
+              </div>
+              <div className="p-4 bg-gray-800 rounded-lg shadow-md flex items-center justify-center text-accent font-medium">
+                AI/IoT Automation Systems
+              </div>
             </div>
+
+
+            {/*Tools-Tech */}
+            <div className="p-3 bg-primary rounded-lg ">
+                <h1 className="text-xl font-semibold mb-2 text-accent border-b border-accent pb-2">Tools & Technology</h1>
+                
+                <ul className="text-sm text-gray-300">
+                  <li className="flex flex-col">
+                    <span className="text-accent font-semibold ">ML Tech Stack:</span>
+                    <p className="text-gray-300 p-2 bg-gray-700 rounded-lg mb-3">Python, PyTorch, TensorFlow, NumPy, Matplotlib, Pandas, Scikit-learn, OpenCV</p>
+                  </li>
+
+                  <li className="flex flex-col">
+                    <span className="text-accent  font-semibold">Embedded Systems Tech Stack:</span>
+                    <p className="text-gray-300 p-2 bg-gray-700  rounded-lg mb-3">C/C++, Arduino Boards, ESP32, Sensor-Modules, Segger, Raspberry Pi</p>
+                  </li>
+
+                  <li className="flex flex-col">
+                    <span className="text-accent  font-semibold">Development Tools:</span>
+                    <p className="text-gray-300 p-2 bg-gray-700  rounded-lg mb-3">VS Code, Arduino IDE, CodeBlocks, Linux, Google Colab, Git, Fritzing, Tinkercad</p>
+                  </li>
+
+                  <li className="flex flex-col">
+                    <span className="text-accent  font-semibold">Familiar With:</span>
+                    <p className="text-gray-300 p-2 bg-gray-700 rounded-lg mb-3">SQL, Firebase, Java, C#, JS, PHP, HTML, CSS, Three.js, Android, Oracle, .NET, Next.js, IFTTT</p>
+                  </li>
+                </ul>
+</div>
 
 
           </div>

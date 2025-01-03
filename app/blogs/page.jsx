@@ -1,6 +1,6 @@
 const Blogs = () => {
   return (
-    <div>blogs page</div>
+    <div>blogs Comming Soon !</div>
   )
 }
 
