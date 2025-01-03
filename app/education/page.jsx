@@ -13,7 +13,7 @@ const educationData = [
     cgpa: "CGPA: 3.470/4.00",
     duration: "Jan,2019 - Jun,2023",
     certificateLink: "https://drive.google.com/file/d/10oz_WuCfW_I0Lp7AMNCLlX3mTPVCGV2l/view?usp=drive_link",
-    transcriptLink: "https://drive.google.com/file/d/1MSE5PYQyBOWwTNBB73P-ka9i4l84PJto/view?usp=drive_link",
+    /*transcriptLink: "https://drive.google.com/file/d/1MSE5PYQyBOWwTNBB73P-ka9i4l84PJto/view?usp=drive_link",*/
     awardsOne: "",
     awardsTwo : ""
   },
@@ -26,7 +26,7 @@ const educationData = [
     cgpa: "GPA: 5.00/5.00",
     duration: "2018",
     certificateLink: "https://drive.google.com/file/d/1U-bVxLPmc1NCuLE-vpsbCfnNTEXOa3gZ/view?usp=drive_link",
-    transcriptLink: "https://drive.google.com/file/d/1EC-kwO5TLtFDPv99hdbutkXGom8Hu0uF/view?usp=drive_link",
+    /*transcriptLink: "https://drive.google.com/file/d/1EC-kwO5TLtFDPv99hdbutkXGom8Hu0uF/view?usp=drive_link",*/
     awardsOne: "",
     awardsTwo : ""
   },
@@ -39,7 +39,7 @@ const educationData = [
     cgpa: "GPA: 5.00/5.00",
     duration: "2016",
     certificateLink: "https://drive.google.com/file/d/1_FkFvOmsssKOizwogdhmvBaHwpRD0_n0/view?usp=drive_link",
-    transcriptLink: "https://drive.google.com/file/d/1WNAIOPS6wYzSIXp2PiW_MnJHAfmzQfnf/view?usp=drive_link",
+    /*transcriptLink: "https://drive.google.com/file/d/1WNAIOPS6wYzSIXp2PiW_MnJHAfmzQfnf/view?usp=drive_link",*/
     awardsOne : "",
     awardsTwo : ""
   },
@@ -52,7 +52,7 @@ const educationData = [
     cgpa: "GPA: 5.00/5.00",
     duration: "2013",
     certificateLink: "https://drive.google.com/file/d/1psyY6V3dkjirQ89gtPwOoJdIY1q0uxCb/view?usp=sharing",
-    transcriptLink: "https://drive.google.com/file/d/1psyY6V3dkjirQ89gtPwOoJdIY1q0uxCb/view?usp=sharing",
+    /*transcriptLink: "https://drive.google.com/file/d/1psyY6V3dkjirQ89gtPwOoJdIY1q0uxCb/view?usp=sharing",*/
     awardsOne : '',
     awardsTwo : ""
   },

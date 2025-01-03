@@ -12,7 +12,7 @@ const ventures = [
     establishmentDate: "Established: December 2023",
     location: "Dhaka, Bangladesh",
     aim: "proyogLab aims to solve modern real-world problems, through innovating R&D tools, AI systems, cutting-edge software and electronics.",
-    description: "IT start-up focused on developing AI systems, R&D tools, software and electronic devices",
+    description: "IT start-up focused on developing AI systems, R&D tools-equipments, software and electronic devices.",
     services: [
       "AI System Development",
       "R&D Tools and Equipment",
@@ -22,14 +22,14 @@ const ventures = [
     ],
     socialLinks: {
       facebook: "https://facebook.com/proyogLab",
-      instagram: "https://instagram.com/proyogLab",
+      instagram: "https://www.instagram.com/proyoglab?igsh=MWY1NzNsMGFnMmxidA==",
       youtube: "https://youtube.com/proyogLab",
       linkedin: "https://linkedin.com/company/proyogLab",
       website: "impedanceplus.blogspot.com",
       whatsapp: "+8801318580409"
     },
-    recentWorks: "'alokShobdo' Programmable Learning Device", // Replace with your image path
-    currentProjects: "Enhancing 'AlokShobdo' PLD and IoT-based R&D solutions.",
+    recentWorks: "Innovated and developed 'alokShobdo' Programmable Learning Device. Launched it on consumer market.", // Replace with your image path
+    currentProjects: "Enhancing 'alokShobdo' PLD and IoT-based R&D solutions.",
   },
   {
     id: 2,
@@ -38,7 +38,7 @@ const ventures = [
     establishmentDate: "Established: June 2020",
     location: "Dhaka, Bangladesh",
     aim: "impedancePlus aims to provide top quality electronic and robotics components at a very resonable price and also provide high quality embedded/Robotics and software prototypes",
-    description : "E-commerce business selling electronics-robotics components and providing complete embedded, IoT/Robotics systems and software prototypes.",
+    description : "E-commerce business selling electronics-robotics-IoT components and providing complete embedded, IoT/Robotics systems and software prototypes.",
     services: [
       "Electronic Component Sales",
       "Robotics Prototyping",
@@ -48,13 +48,13 @@ const ventures = [
     ],
     socialLinks: {
       facebook: "https://facebook.com/impedancePlus",
-      instagram: "https://instagram.com/impedancePlus",
+      instagram: "https://www.instagram.com/impedanceplus?igsh=Y3QwZ3pxOGhpd2Fu",
       youtube: "https://youtube.com/impedancePlus",
       linkedin: "https://linkedin.com/company/impedancePlus",
       website: "impedanceplus.blogspot.com",
       whatsapp: "+8801318580409"
     },
-    recentWorks: "IoT-system prototype: IoT Fingerprint Attendance System",
+    recentWorks: "Developed a complete IoT-based Fingerprint Attendance System prototype along with a web dashboard.",
     currentProjects: "Developing embedded prototypes and expanding e-commerce offerings.",
   },
 ];
@@ -66,7 +66,7 @@ const Ventures = () => {
       
 
         {/* Project Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 mt-3">
           {ventures.map((project) => (
             <div
               key={project.id}
@@ -87,28 +87,28 @@ const Ventures = () => {
              
 
               {/* Estd. Date */}
-              <p className="font-secondary text-sm text-gray-300 mb-1 flex items-center gap-1">
+              <p className="font-secondary text-sm text-green-400 mb-1 flex items-center gap-1">
                 <FiClock size={16} /> {project.establishmentDate}
               </p>
 
 
               {/*location */}
-              <p className="font-secondary text-sm text-gray-300 mb-4 flex items-center gap-1">
+              <p className="font-secondary text-sm text-green-400 mb-2 flex items-center gap-1">
                 <FiMapPin size={16} /> {project.location}
               </p>
 
                 {/*aim */}
-                <p className="font-secondary text-sm text-gray-300 mb-1">{project.aim}</p>
+                <p className="font-secondary text-sm text-gray-300 mb-5">{project.aim}</p>
              
 
                
 
 
                {/* recent works */}
-               <p className="font-secondary text-sm text-gray-300 mb-1">{project.recentWorks}</p>
+               <p className="font-secondary text-sm text-gray-100 mb-3">Recent work: <br/> {project.recentWorks}</p>
 
               {/* on going works */}
-              <p className="font-secondary text-sm text-gray-300 mb-1">{project.currentProjects}</p>
+              <p className="font-secondary text-sm text-gray-100 mb-1">On-going: <br />{project.currentProjects}</p>
 
               <div className="flex items-bottom">
               {/* Social Links */}

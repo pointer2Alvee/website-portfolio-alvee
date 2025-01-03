@@ -62,22 +62,22 @@ const Page = () => {
                 <ul className="text-sm text-gray-300">
                   <li className="flex flex-col">
                     <span className="text-accent font-semibold ">ML Tech Stack:</span>
-                    <p className="text-gray-300 p-2 bg-gray-700 rounded-lg mb-3">Python, PyTorch, TensorFlow, NumPy, Matplotlib, Pandas, Scikit-learn, OpenCV</p>
+                    <p className="text-gray-300 p-2 bg-gray-700 rounded-lg mb-2">Python, PyTorch, TensorFlow, NumPy, Matplotlib, Pandas, Scikit-learn, OpenCV</p>
                   </li>
 
                   <li className="flex flex-col">
                     <span className="text-accent  font-semibold">Embedded Systems Tech Stack:</span>
-                    <p className="text-gray-300 p-2 bg-gray-700  rounded-lg mb-3">C/C++, Arduino Boards, ESP32, Sensor-Modules, Segger, Raspberry Pi, STM32, Aurix</p>
+                    <p className="text-gray-300 p-2 bg-gray-700  rounded-lg mb-2">C/C++, Arduino Boards, ESP32,  Sensor-Modules, Segger, Raspberry Pi, STM32, Aurix</p>
                   </li>
 
                   <li className="flex flex-col">
                     <span className="text-accent  font-semibold">Development Tools:</span>
-                    <p className="text-gray-300 p-2 bg-gray-700  rounded-lg mb-3">VS Code, Arduino IDE, CodeBlocks, Linux, Google Colab, Git, Fritzing, Tinkercad</p>
+                    <p className="text-gray-300 p-2 bg-gray-700  rounded-lg mb-7">VS Code, CodeBlocks, Linux, Google Colab, Git, Arduino-IDE, Blynk IoT, Fritzing, Tinkercad</p>
                   </li>
 
                   <li className="flex flex-col">
-                    <span className="text-accent  font-semibold">Familiar With:</span>
-                    <p className="text-gray-300 p-2 bg-gray-700 rounded-lg mb-3">SQL, Firebase, Java, C#, JS, PHP, HTML, CSS, Three.js, Android, Oracle, .NET, Next.js, IFTTT</p>
+                    <span className="text-yellow-500  font-semibold">Also Familiar With:</span>
+                    <p className="text-yellow-500 p-2 bg-gray-700 rounded-lg mb-3">Java, C#, JS, PHP, SQL, Firebase, HTML, CSS, Three.js, Android, Oracle, .NET, Next.js, IFTTT</p>
                   </li>
                 </ul>
 </div>
