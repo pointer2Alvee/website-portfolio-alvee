@@ -11,9 +11,9 @@ const awardsData = [
     institution: "Bangladesh Elementary School",
     location: "Chattogram,Bangladesh",
     degree: "Primary School Certificate",
-    cgpa: "Division: 1st",
+    cgpa: "| Division: 1st",
     duration: "2010",
-    certificateLink: "https://example.com/certificate",
+    certificateLink: "https://drive.google.com/file/d/1MNhzh8xWznVedUZHBu7RXa2PPGusV_VJ/view?usp=drive_link",
 
   },
   {
@@ -22,9 +22,20 @@ const awardsData = [
     institution: "Bangladesh Elementary School",
     location: "Chattogram,Bangladesh",
     degree: "Primary School Certificate",
-    cgpa: "Division: 1st",
+    cgpa: "| Division: 1st",
     duration: "2010",
-    certificateLink: "https://example.com/certificate",
+    certificateLink: "https://drive.google.com/file/d/1MNhzh8xWznVedUZHBu7RXa2PPGusV_VJ/view?usp=drive_link",
+  
+  },
+  {
+    id: 3,
+    title: "Published my First Book 'alokShobdo' ",
+    institution: "proyogLab™",
+    location: "Dhaka,Bangladesh",
+    degree: "A book for learning Embedded programming and electronics",
+    cgpa: "",
+    duration: "2024",
+    certificateLink: "https://drive.google.com/file/d/1i4Z0rtyxwGFQifbad1pXf-9SkGPxkgBg/view",
   
   },
   
@@ -37,7 +48,7 @@ const Awards_Activities = () => {
          
          {/*Title*/}
          <div className="flex items-left gap-0 mb-3">
-          <h1 className="font-semibold">Awards</h1>
+          <h1 className="font-semibold">Achievements & Awards</h1>
         </div>
 
         <div className="flex flex-col gap-4">
@@ -64,7 +75,7 @@ const Awards_Activities = () => {
 
                {/* Degree and CGPA */}
                <div className="text-sm font-secondary">
-                {item.degree} | {item.cgpa}
+                {item.degree} {item.cgpa}
                 
               </div>
 

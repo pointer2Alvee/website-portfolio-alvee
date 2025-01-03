@@ -22,7 +22,7 @@ const Page = () => {
             {/*Bio */}
             Welcome to my portfolio! I am a passionate <b className='text-white-100'>'Machine Learning Engineer'</b> with a deep enthusiasm for Embedded Systems, IoT, and Robotics. 
             My focus lies in developing efficient and scalable solutions by blending the power of Machine Learning with cutting-edge Embedded Systems technologies. 
-            Beyond engineering, I am also an entrepreneur, proudly leading two startups ——<a href='/ventures' className='text-blue-400 underline'>proyogLab</a> and <a href='/ventures' className='text-blue-400 underline'>impedancePlus</a>—— which 
+            Beyond engineering, I am also an entrepreneur, proudly leading two startups ——<a href='/ventures' className='text-blue-400 underline'>proyogLab </a> and <a href='/ventures' className='text-blue-400 underline'>impedancePlus</a>—— which 
             reflect my drive to merge innovation and business for impactful solutions. 
             My full name is <b className='text-accent'>`M M Sadman Ibrahim`</b>, but you can call me <b className='text-yellow-500'>`ALVEE`</b>. With a strong commitment to excellence and a passion for solving real-world challenges, 
             I strive to leverage technology to make a meaningful difference. Thank you for visiting—feel free to explore and learn more about my work and aspirations!
@@ -67,7 +67,7 @@ const Page = () => {
 
                   <li className="flex flex-col">
                     <span className="text-accent  font-semibold">Embedded Systems Tech Stack:</span>
-                    <p className="text-gray-300 p-2 bg-gray-700  rounded-lg mb-3">C/C++, Arduino Boards, ESP32, Sensor-Modules, Segger, Raspberry Pi</p>
+                    <p className="text-gray-300 p-2 bg-gray-700  rounded-lg mb-3">C/C++, Arduino Boards, ESP32, Sensor-Modules, Segger, Raspberry Pi, STM32, Aurix</p>
                   </li>
 
                   <li className="flex flex-col">

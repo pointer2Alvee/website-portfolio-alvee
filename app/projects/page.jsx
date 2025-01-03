@@ -6,6 +6,7 @@ const hardwareProjects = [
   {
     id: 1,
     name: "IoT Fingerprint Attendance",
+    img: "../images/projects/iot_Fingerprint.jpg",
     youtubeLink: "https://www.youtube.com/watch?v=example1",
     githubLink: "https://github.com/pointer2Alvee/iot-smart-fingerprint-attendance.git",
     description: "An IoT-based system that automates attendance",
@@ -14,6 +15,7 @@ const hardwareProjects = [
   {
     id: 2,
     name: "Automated Parking",
+    img: "../images/projects/auto_parking.jpg",
     youtubeLink: "https://www.youtube.com/watch?v=example2",
     githubLink: "https://github.com/pointer2Alvee/embd-sys-automated-parking.git",
     description: "A car controlled by hand gestures using Arduino",
@@ -22,6 +24,7 @@ const hardwareProjects = [
   {
     id: 3,
     name: "Security Surveillance Robot",
+    img: "../images/projects/3sBot.jpg",
     youtubeLink: "https://www.youtube.com/watch?v=example3",
     githubLink: "https://github.com/pointer2Alvee/embd-sys-security-surveillance-service-bot.git",
     description: "A smart home system controlled via mobile app using ESP32.",
@@ -30,6 +33,7 @@ const hardwareProjects = [
   {
     id: 4,
     name: "IoT Automated Residence",
+    img: "../images/projects/iot_automated_home.jpg",
     youtubeLink: "https://www.youtube.com/watch?v=example3",
     githubLink: "https://github.com/pointer2Alvee/iot-automated-residence.git",
     description: "A smart home system controlled via mobile app using ESP32.",
@@ -38,6 +42,7 @@ const hardwareProjects = [
   {
     id: 5,
     name: "Distance Measuring System",
+    img: "../images/projects/dist_measure.jpg",
     youtubeLink: "https://www.youtube.com/watch?v=example3",
     githubLink: "https://github.com/pointer2Alvee/embd-sys-distance-measuring-device.git",
     description: "A smart home system controlled via mobile app using ESP32.",
@@ -46,6 +51,7 @@ const hardwareProjects = [
   {
     id: 6,
     name: "Solar Bat Charge Controller",
+    img: "../images/projects/Solar_Bat_Chrg_ctrl.jpg",
     youtubeLink: "https://www.youtube.com/watch?v=example3",
     githubLink: "https://github.com/pointer2Alvee/embd-sys-solar-battery-charge-controller.git",
     description: "A smart home system controlled via mobile app using ESP32.",
@@ -54,6 +60,7 @@ const hardwareProjects = [
   {
     id: 7,
     name: "RF Gesture Controlled Car",
+    img: "../images/projects/Gesture_car.jpg",
     youtubeLink: "https://www.youtube.com/watch?v=example3",
     githubLink: "https://github.com/pointer2Alvee/embd-sys-rf-gesture-controlled-car.git",
     description: "A smart home system controlled via mobile app using ESP32.",
@@ -62,6 +69,7 @@ const hardwareProjects = [
   {
     id: 8,
     name: "Dual-Axis Solar Tracker",
+    img: "../images/projects/Dual_axis_solar.jpg",
     youtubeLink: "https://www.youtube.com/watch?v=example3",
     githubLink: "https://github.com/pointer2Alvee/embd-sys-dual-axis-solar-tracker.git",
     description: "A smart home system controlled via mobile app using ESP32.",
@@ -70,6 +78,7 @@ const hardwareProjects = [
   {
     id: 9,
     name: "Ulttrasonic Radar",
+    img: "../images/projects/US_radar.jpg",
     youtubeLink: "https://www.youtube.com/watch?v=example3",
     githubLink: "https://github.com/pointer2Alvee/embd-sys-ultrasonic-radar.git",
     description: "A smart home system controlled via mobile app using ESP32.",
@@ -81,6 +90,7 @@ const softwareProjects = [
   {
     id: 1,
     name: "LLM TV-series Analysis",
+    img: "../images/projects/llm_tv_series.jpg",
     youtubeLink: "",
     githubLink: "https://github.com/pointer2Alvee/llm-tv-series-analysis.git",
     description: "An AI chatbot powered by NLP and machine learning.",
@@ -89,6 +99,7 @@ const softwareProjects = [
   {
     id: 2,
     name: "Virtual Reality",
+    img: "../images/projects/rnv.jpg",
     youtubeLink: "",
     githubLink: "https://github.com/pointer2Alvee/website-reality-virtual.git",
     description: "A scalable e-commerce platform built with React and Node.js.",
@@ -97,10 +108,11 @@ const softwareProjects = [
   {
     id: 3,
     name: "Portfolio Website",
+    img: "../images/projects/portfolio.jpg",
     youtubeLink: "",
     githubLink: "",
     description: "A personal portfolio website showcasing projects and skills.",
-    detailPage: "/projects/portfolio",
+    detailPage: "",
   },
 ];
 
@@ -140,11 +152,11 @@ const Projects = () => {
               className="p-3 border rounded-xl bg-primary text-white shadow-xl transition-transform transform hover:scale-105"
             >
               {/* Thumbnail and Title as Links */}
-              <a href={project.detailPage} target="_blank" rel="noopener noreferrer">
+              <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
                 <img
-                  src={`https://img.youtube.com/vi/${project.youtubeLink.split("v=")[1]}/hqdefault.jpg`}
+                  src={project.img}
                   alt={project.name}
-                  className="w-full h-40 object-cover rounded-xl"
+                  className="w-full h-ull object-cover rounded-xl"
                 />
                 <h3 className="mt-3 text-sm font-bold text-accent">{project.name}</h3>
               </a>

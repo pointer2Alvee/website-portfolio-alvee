@@ -34,7 +34,8 @@ const SideProfile = () => {
             {/* Name, Title, Location */}
             <div className="text-center xl:text-left">
               <h1 className="text-md font-semibold">Sadman Alvee</h1>
-              <p className="text-accent text-sm mb-1">Founder,SWE @ proyogLab™</p>
+              <p className="text-accent text-sm ">Founder,SWE @ proyogLab™</p>
+              <p className="text-accent text-sm mb-1">Founder @ impedancePlus</p>
               <p className="text-accent text-sm">ML/DL, ES, Robotics</p>
             </div>
           </div>

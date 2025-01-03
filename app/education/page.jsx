@@ -12,8 +12,8 @@ const educationData = [
     degree: "Bachelor of Science in Computer Science & Engineering",
     cgpa: "CGPA: 3.470/4.00",
     duration: "Jan,2019 - Jun,2023",
-    certificateLink: "https://example.com/certificate",
-    transcriptLink: "",
+    certificateLink: "https://drive.google.com/file/d/10oz_WuCfW_I0Lp7AMNCLlX3mTPVCGV2l/view?usp=drive_link",
+    transcriptLink: "https://drive.google.com/file/d/1MSE5PYQyBOWwTNBB73P-ka9i4l84PJto/view?usp=drive_link",
     awardsOne: "",
     awardsTwo : ""
   },
@@ -25,8 +25,8 @@ const educationData = [
     degree: "Higher Secondary Certificate (HSC)",
     cgpa: "GPA: 5.00/5.00",
     duration: "2018",
-    certificateLink: "https://example.com/certificate",
-    transcriptLink: "",
+    certificateLink: "https://drive.google.com/file/d/1U-bVxLPmc1NCuLE-vpsbCfnNTEXOa3gZ/view?usp=drive_link",
+    transcriptLink: "https://drive.google.com/file/d/1EC-kwO5TLtFDPv99hdbutkXGom8Hu0uF/view?usp=drive_link",
     awardsOne: "",
     awardsTwo : ""
   },
@@ -38,8 +38,8 @@ const educationData = [
     degree: "Secondary School Certificate (SSC)",
     cgpa: "GPA: 5.00/5.00",
     duration: "2016",
-    certificateLink: "https://example.com/certificate",
-    transcriptLink: "",
+    certificateLink: "https://drive.google.com/file/d/1_FkFvOmsssKOizwogdhmvBaHwpRD0_n0/view?usp=drive_link",
+    transcriptLink: "https://drive.google.com/file/d/1WNAIOPS6wYzSIXp2PiW_MnJHAfmzQfnf/view?usp=drive_link",
     awardsOne : "",
     awardsTwo : ""
   },
@@ -51,8 +51,8 @@ const educationData = [
     degree: "Junior School Certificate (JSC)",
     cgpa: "GPA: 5.00/5.00",
     duration: "2013",
-    certificateLink: "https://example.com/certificate",
-    transcriptLink: "",
+    certificateLink: "https://drive.google.com/file/d/1psyY6V3dkjirQ89gtPwOoJdIY1q0uxCb/view?usp=sharing",
+    transcriptLink: "https://drive.google.com/file/d/1psyY6V3dkjirQ89gtPwOoJdIY1q0uxCb/view?usp=sharing",
     awardsOne : '',
     awardsTwo : ""
   },
@@ -64,8 +64,8 @@ const educationData = [
     degree: "Primary School Certificate (PSC)",
     cgpa: "Division: 1st",
     duration: "2010",
-    certificateLink: "https://example.com/certificate",
-    transcriptLink: "",
+    certificateLink: "https://drive.google.com/file/d/1h2ILjkdG33KpojDVfPK86oyGnCp5NXmK/view?usp=drive_link",
+    transcriptLink: "https://drive.google.com/file/d/1MNhzh8xWznVedUZHBu7RXa2PPGusV_VJ/view?usp=drive_link",
     awardsOne : "Merit: 9th (CTG Division)",
     awardsTwo : "Government Scholarship [TalentPool]",
   },
@@ -134,27 +134,38 @@ const Education = () => {
 
 
 
-              {/* Certificate Link */}
+              {/* Certificate Links */}
               <div className="flex items-center gap-1 text-sm">
-                <FiAward size={16} className="text-gray-400" />
-                <a
-                  href={item.certificateLink}
-                  target="_blank"
-                  className="text-blue-500 underline hover:text-blue-300 transition-colors duration-200"
-                >
-                  Certificate
-                </a>
+                {item.certificateLink && (
+                  <>
+                    <FiAward size={16} className="text-gray-400" />
+                    <a
+                      href={item.certificateLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 underline hover:text-blue-300 transition-colors duration-200"
+                    >
+                      Certificate
+                    </a>
+                  </>
+                )}
 
-                  {/* Transcript Link */}
-                <FiFileText size={16} className="ms-2 text-gray-400" />
-                <a
-                  href={item.transcriptLink}
-                  target="_blank"
-                  className=" text-blue-500 underline hover:text-blue-300 transition-colors duration-200"
-                >
-                  Transcript
-                </a>
+                {/* Transcript Links */}
+                {item.transcriptLink && (
+                  <>
+                    <FiFileText size={16} className="ms-2 text-gray-400" />
+                    <a
+                      href={item.transcriptLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 underline hover:text-blue-300 transition-colors duration-200"
+                    >
+                      Transcript
+                    </a>
+                  </>
+                )}
               </div>
+
 
             </div>
           ))}
