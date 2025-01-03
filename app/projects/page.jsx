@@ -90,7 +90,7 @@ const softwareProjects = [
   {
     id: 1,
     name: "LLM TV-series Analysis",
-    img: "../images/projects/llm_tv_series.jpg",
+    img: "../images/projects/software.jpg",
     youtubeLink: "",
     githubLink: "https://github.com/pointer2Alvee/llm-tv-series-analysis.git",
     description: "An AI chatbot powered by NLP and machine learning.",
@@ -108,7 +108,7 @@ const softwareProjects = [
   {
     id: 3,
     name: "Portfolio Website",
-    img: "../images/projects/portfolio.jpg",
+    img: "../images/projects/software_two.jpg",
     youtubeLink: "",
     githubLink: "",
     description: "A personal portfolio website showcasing projects and skills.",
