@@ -35,7 +35,7 @@ const ventures = [
     id: 2,
     name: "impedancePlus",
     detailPage: "../images/ip.jpg",
-    establishmentDate: "Established: June 2020",
+    establishmentDate: "Established: July 2020",
     location: "Dhaka, Bangladesh",
     aim: "impedancePlus aims to provide top quality electronic and robotics components at a very resonable price and also provide high quality embedded/Robotics and software prototypes",
     description : "E-commerce business selling electronics-robotics-IoT components and providing complete embedded, IoT/Robotics systems and software prototypes.",
@@ -55,7 +55,7 @@ const ventures = [
       whatsapp: "+8801318580409"
     },
     recentWorks: "Developed a complete IoT-based Fingerprint Attendance System prototype along with a web dashboard.",
-    currentProjects: "Developing embedded prototypes and expanding e-commerce offerings.",
+    currentProjects: "Reorganizing company structure for better development of embedded prototypes and expanding e-commerce offerings.",
   },
 ];
 

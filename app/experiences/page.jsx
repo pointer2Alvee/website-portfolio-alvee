@@ -42,7 +42,7 @@ const experiences = [
     company: "impedancePlus",
     link: "https://www.facebook.com/impedanceplus",
     position: "Founder | Embedded Systems Developer",
-    duration: "Jun,2020 - Aug,2023",
+    duration: "Jul,2020 - Aug,2023",
     location: "Dhaka,Bangladesh",
     techStack: "C, Embedded Systems, Arduino, IoT, ESP32, Sensor-Modules, Fritzing, Tinkercad, Entrepreneurship",
     logo: "/proyogLab.png",

@@ -1,3 +1,6 @@
+TUTORIAL LINK : 
+https://www.youtube.com/watch?v=dImgZ_AH7uA
+
 IN vs code terminal originally : npx --version or npm -v
 the npx an npm commands are not recognized and shows error
 although properly installed. But shows in windows powershell properly. 
