@@ -35,6 +35,9 @@ const Page = () => {
                 Embedded Systems Development
               </div>
               <div className="p-4 bg-gray-800 rounded-lg shadow-md flex items-center justify-center text-accent font-medium">
+                Python Engineering
+              </div>
+              <div className="p-4 bg-gray-800 rounded-lg shadow-md flex items-center justify-center text-accent font-medium">
                 Machine Learning / Deep Learning
               </div>
               <div className="p-4 bg-gray-800 rounded-lg shadow-md flex items-center justify-center text-accent font-medium">
@@ -51,6 +54,9 @@ const Page = () => {
               </div>
               <div className="p-4 bg-gray-800 rounded-lg shadow-md flex items-center justify-center text-accent font-medium">
                 AI/IoT Automation Systems
+              </div>
+              <div className="p-4 bg-gray-800 rounded-lg shadow-md flex items-center justify-center text-accent font-medium">
+                Software Engineering
               </div>
             </div>
 

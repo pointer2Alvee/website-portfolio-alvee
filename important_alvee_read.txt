@@ -1,6 +1,21 @@
 TUTORIAL LINK : 
 https://www.youtube.com/watch?v=dImgZ_AH7uA
 
+
+
+------------------------------------ HOW TO RUN PROJECT ---------------------------------
+* SEE TUTORIAL IF YOU CANT UNDERSTAND OR ChatGPT HELP
+* STEPS :-
+0) Install npm, nextjs, tailwind and necessary tools using cmd or vs code terminal (preferred)
+after that:-
+1) open project in VS code
+2) start terminal
+3) type command : npm run dev
+4) browser : localhost:3000 
+
+------------------------------------------------------------------------------------------
+
+
 IN vs code terminal originally : npx --version or npm -v
 the npx an npm commands are not recognized and shows error
 although properly installed. But shows in windows powershell properly. 
