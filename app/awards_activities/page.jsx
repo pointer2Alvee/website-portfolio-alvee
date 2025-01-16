@@ -34,8 +34,8 @@ const awardsData = [
     location: "Dhaka,Bangladesh",
     degree: "A book for learning Embedded programming and electronics",
     cgpa: "",
-    duration: "2024",
-    certificateLink: "https://drive.google.com/file/d/1i4Z0rtyxwGFQifbad1pXf-9SkGPxkgBg/view",
+    duration: "2023",
+    certificateLink: "https://drive.google.com/file/d/1-Kh9t5tMj8Y4YBPwVdoM86-9dKyw_Fiz/view?usp=drive_link",
   
   },
   
